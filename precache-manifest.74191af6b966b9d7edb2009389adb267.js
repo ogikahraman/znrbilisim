@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e35a03104a30044c2a943224fd4363f2",
+    "revision": "17797592e2c32323bb615cb26eb53da4",
     "url": "/ogikahraman.github.io/znrbilisim/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ogikahraman.github.io/znrbilisim/static/css/2.95f4e4dc.chunk.css"
   },
   {
-    "revision": "63ffa8dcd9564eb90b83",
+    "revision": "1b92d08a9e23cea0f664",
     "url": "/ogikahraman.github.io/znrbilisim/static/css/main.168003bc.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ogikahraman.github.io/znrbilisim/static/js/3.d0e5e13a.chunk.js"
   },
   {
-    "revision": "63ffa8dcd9564eb90b83",
-    "url": "/ogikahraman.github.io/znrbilisim/static/js/main.db252f73.chunk.js"
+    "revision": "1b92d08a9e23cea0f664",
+    "url": "/ogikahraman.github.io/znrbilisim/static/js/main.0f08ac07.chunk.js"
   },
   {
     "revision": "bd02e4ed1172644992c4",
