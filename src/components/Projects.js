@@ -29,12 +29,6 @@ class Projects extends Component {
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
                 <div>
-                  <img
-                    src={"/images/mtdLogo.png"}
-                    alt="projectImages"
-                    height="230"
-                    style={{ marginBottom: 0, paddingBottom: 0, position: 'relative' }}
-                  />
                   <br />
                   <p className="project-title-settings mt-3">
                     {projects.title}
