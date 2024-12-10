@@ -1,0 +1,101 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "I'am Zınar Işık!",
+      "section_name": {
+        "about": "About me",
+        "projects": "References",
+        "services": "Services",
+        "skills": "Umiejętności",
+        "experience": "Doświadczenie"
+      }
+    },
+    "projects": [
+      {
+        "title": "MTD İNŞAAT",
+        "description": "Tahir Abi's work.",
+        "images": [
+          "/images/mtdLogo.png"
+        ],
+        "url": "www.betonmehmet.com"
+      },
+      {
+        "title": "YİĞİTALP LOJİSTİK",
+        "description": "Özgür abi's work.",
+        "images": [
+          "/images/yigitalplogo.png"
+        ],
+        "url": "www.yigitalplojistik.com.tr"
+      },
+      {
+        "title": "KAHRAMAN MERDİVEN",
+        "description": "Uncle's work.",
+        "images": [
+          "/images/kahramanahsaplogo.png"
+        ],
+        "url": "www.kahramanahsapmerdiven.com"
+        
+      }
+    ],
+    "services": [
+      {
+        "title": "deneme",
+        "description": "Tahir Abi's work.",
+        "images": [
+          "/images/mtdLogo.png"
+        ],
+        "url": "www.betonmehmet.com"
+      },
+      {
+        "title": "denme2",
+        "description": "Özgür abi's work.",
+        "images": [
+          "/images/yigitalplogo.png"
+        ],
+        "url": "www.yigitalplojistik.com.tr"
+      },
+      {
+        "title": "deneme3",
+        "description": "Uncle's work.",
+        "images": [
+          "/images/kahramanahsaplogo.png"
+        ],
+        "url": "www.kahramanahsapmerdiven.com"
+        
+      }
+    ],
+    "experience": [
+      {
+        "company": "DefOpenSource",
+        "title": "Front-End Developer",
+        "years": "10.2019 - obecnie",
+        "mainTech": [
+          "Angular 8/9/10"
+        ],
+        "technologies": [
+          "REST API",
+          "RxJS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "EF Core",
+          "Angular Material"
+        ]
+      },
+      {
+        "company": "Serros Solutions",
+        "title": "Stażystka",
+        "years": "01.2018 - 09.2019",
+        "mainTech": [
+          "Angular 7/8"
+        ],
+        "technologies": [
+          "REST API",
+          "RxJS",
+          "Swagger",
+          "JavaScript",
+          "DHTMLX Gantt"
+        ]
+      }
+    ]
+  }

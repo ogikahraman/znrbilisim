@@ -1,0 +1,87 @@
+{
+    "basic_info": {
+      "name": "Znr BilişimName",
+      "titles": [ "Bilişim Sistemleri Uzmanı", "Donanım Uzmanı", "Siber Güvenlik Uzmanı", "Yazılım Uzmanı" ],
+      "social": [
+        {
+          "name": "phone",
+          "url": "tel:+905368853513",
+          "class": "fa fa-phone"
+        },
+        {
+          "name": "whatsapp",
+          "url": "https://wa.me/905368853513",
+          "class": "fab fa-whatsapp"
+        },
+        {
+          "name": "mail",
+          "url": "mailto:zinarisik@hotmail.com",
+          "class": "fa fa-envelope"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/zınarışık/",
+          "class": "fab fa-linkedin"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/znrisk/",
+          "class": "fab fa-instagram"
+        },
+        {
+          "name": "youtube",
+          "url": "https://www.youtube.com/@znrisk",
+          "class": "fab fa-youtube"
+        }
+      ]
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "Angular",
+          "class": "devicon-angularjs-plain",
+          "level": "80"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "90"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original",
+          "level": "75"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "85"
+        },
+        {
+          "name": "C#",
+          "class": "devicon-csharp-plain",
+          "level": "65"
+        },
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain",
+          "level": "60"
+        }
+      ]
+    }
+  }
