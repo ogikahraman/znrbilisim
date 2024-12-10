@@ -6,12 +6,27 @@
         {
           "name": "github",
           "url": "https://github.com",
-          "class": "fab fa-github"
+          "class": "fab fa-whatsapp"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com",
+          "class": "fab fa-linkedin"
         },
         {
           "name": "instagram",
           "url": "https://www.instagram.com",
           "class": "fab fa-instagram"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com",
+          "class": "fab fa-youtube"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com",
+          "class": "fa fa-envelope"
         }
       ]
     },
