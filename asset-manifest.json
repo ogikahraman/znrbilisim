@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/ogikahraman.github.io/znrbilisim/static/css/main.168003bc.chunk.css",
-    "main.js": "/ogikahraman.github.io/znrbilisim/static/js/main.fece251f.chunk.js",
-    "main.js.map": "/ogikahraman.github.io/znrbilisim/static/js/main.fece251f.chunk.js.map",
-    "runtime-main.js": "/ogikahraman.github.io/znrbilisim/static/js/runtime-main.00cd6a16.js",
-    "runtime-main.js.map": "/ogikahraman.github.io/znrbilisim/static/js/runtime-main.00cd6a16.js.map",
-    "static/css/2.95f4e4dc.chunk.css": "/ogikahraman.github.io/znrbilisim/static/css/2.95f4e4dc.chunk.css",
-    "static/js/2.ad46a5b7.chunk.js": "/ogikahraman.github.io/znrbilisim/static/js/2.ad46a5b7.chunk.js",
-    "static/js/2.ad46a5b7.chunk.js.map": "/ogikahraman.github.io/znrbilisim/static/js/2.ad46a5b7.chunk.js.map",
-    "static/js/3.4dc18665.chunk.js": "/ogikahraman.github.io/znrbilisim/static/js/3.4dc18665.chunk.js",
-    "static/js/3.4dc18665.chunk.js.map": "/ogikahraman.github.io/znrbilisim/static/js/3.4dc18665.chunk.js.map",
-    "index.html": "/ogikahraman.github.io/znrbilisim/index.html",
-    "precache-manifest.f2ab02b973b6ffd50e4bad6b1532cf5a.js": "/ogikahraman.github.io/znrbilisim/precache-manifest.f2ab02b973b6ffd50e4bad6b1532cf5a.js",
-    "service-worker.js": "/ogikahraman.github.io/znrbilisim/service-worker.js",
-    "static/css/2.95f4e4dc.chunk.css.map": "/ogikahraman.github.io/znrbilisim/static/css/2.95f4e4dc.chunk.css.map",
-    "static/css/main.168003bc.chunk.css.map": "/ogikahraman.github.io/znrbilisim/static/css/main.168003bc.chunk.css.map",
-    "static/js/2.ad46a5b7.chunk.js.LICENSE.txt": "/ogikahraman.github.io/znrbilisim/static/js/2.ad46a5b7.chunk.js.LICENSE.txt",
-    "static/media/mtdLogo.png": "/ogikahraman.github.io/znrbilisim/static/media/mtdLogo.01f8bd36.png",
-    "static/media/znrPic.jpeg": "/ogikahraman.github.io/znrbilisim/static/media/znrPic.22c76a71.jpeg"
+    "main.css": "/znrbilisim/static/css/main.168003bc.chunk.css",
+    "main.js": "/znrbilisim/static/js/main.6610de22.chunk.js",
+    "main.js.map": "/znrbilisim/static/js/main.6610de22.chunk.js.map",
+    "runtime-main.js": "/znrbilisim/static/js/runtime-main.21210f93.js",
+    "runtime-main.js.map": "/znrbilisim/static/js/runtime-main.21210f93.js.map",
+    "static/css/2.95f4e4dc.chunk.css": "/znrbilisim/static/css/2.95f4e4dc.chunk.css",
+    "static/js/2.ad46a5b7.chunk.js": "/znrbilisim/static/js/2.ad46a5b7.chunk.js",
+    "static/js/2.ad46a5b7.chunk.js.map": "/znrbilisim/static/js/2.ad46a5b7.chunk.js.map",
+    "static/js/3.4dc18665.chunk.js": "/znrbilisim/static/js/3.4dc18665.chunk.js",
+    "static/js/3.4dc18665.chunk.js.map": "/znrbilisim/static/js/3.4dc18665.chunk.js.map",
+    "index.html": "/znrbilisim/index.html",
+    "precache-manifest.795839cd04d4b270248e3bbb674efa19.js": "/znrbilisim/precache-manifest.795839cd04d4b270248e3bbb674efa19.js",
+    "service-worker.js": "/znrbilisim/service-worker.js",
+    "static/css/2.95f4e4dc.chunk.css.map": "/znrbilisim/static/css/2.95f4e4dc.chunk.css.map",
+    "static/css/main.168003bc.chunk.css.map": "/znrbilisim/static/css/main.168003bc.chunk.css.map",
+    "static/js/2.ad46a5b7.chunk.js.LICENSE.txt": "/znrbilisim/static/js/2.ad46a5b7.chunk.js.LICENSE.txt",
+    "static/media/mtdLogo.png": "/znrbilisim/static/media/mtdLogo.01f8bd36.png",
+    "static/media/znrPic.jpeg": "/znrbilisim/static/media/znrPic.22c76a71.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.00cd6a16.js",
+    "static/js/runtime-main.21210f93.js",
     "static/css/2.95f4e4dc.chunk.css",
     "static/js/2.ad46a5b7.chunk.js",
     "static/css/main.168003bc.chunk.css",
-    "static/js/main.fece251f.chunk.js"
+    "static/js/main.6610de22.chunk.js"
   ]
 }
