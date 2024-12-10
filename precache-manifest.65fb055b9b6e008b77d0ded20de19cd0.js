@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34db9077c892f433b39cd345f69b432a",
+    "revision": "d0f539ca58d16f06a80caff3c3c2d3d3",
     "url": "/znrbilisim.com/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/znrbilisim.com/static/css/2.95f4e4dc.chunk.css"
   },
   {
-    "revision": "cf4c342c0fa283f06750",
-    "url": "/znrbilisim.com/static/css/main.168003bc.chunk.css"
+    "revision": "f75213a00e02f40657b9",
+    "url": "/znrbilisim.com/static/css/main.2a7f48f0.chunk.css"
   },
   {
     "revision": "fb127013e92c11769c8d",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/znrbilisim.com/static/js/3.d0e5e13a.chunk.js"
   },
   {
-    "revision": "cf4c342c0fa283f06750",
-    "url": "/znrbilisim.com/static/js/main.3980d9e3.chunk.js"
+    "revision": "f75213a00e02f40657b9",
+    "url": "/znrbilisim.com/static/js/main.da1087f8.chunk.js"
   },
   {
     "revision": "27a39827beb5b5b0c6b2",

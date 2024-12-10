@@ -1,17 +1,37 @@
 {
     "basic_info": {
       "name": "Znr Bilişim",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "titles": [ "Bilişim Sistemleri Uzmanı", "Donanım Uzmanı", "Siber Güvenlik Uzmanı", "Yazılım Uzmanı" ],
       "social": [
         {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fab fa-github"
+          "name": "phone",
+          "url": "tel:+905368853513",
+          "class": "fa fa-phone"
+        },
+        {
+          "name": "whatsapp",
+          "url": "https://wa.me/905368853513",
+          "class": "fab fa-whatsapp"
+        },
+        {
+          "name": "mail",
+          "url": "mailto:zinarisik@hotmail.com",
+          "class": "fa fa-envelope"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/zınarışık/",
+          "class": "fab fa-linkedin"
         },
         {
           "name": "instagram",
-          "url": "https://www.instagram.com",
+          "url": "https://www.instagram.com/znrisk/",
           "class": "fab fa-instagram"
+        },
+        {
+          "name": "youtube",
+          "url": "https://www.youtube.com/@znrisk",
+          "class": "fab fa-youtube"
         }
       ]
     },

@@ -14,9 +14,9 @@
         "title": "MTD İNŞAAT",
         "description": "Tahir Abinin İşi.",
         "images": [
-          "./images/mtdLogo.png"
+          "images/mtdLogo.png"
         ],
-        "url": ""
+        "url": "www.betonmehmet.com"
       },
       {
         "title": "YİĞİTALP LOJİSTİK",
@@ -25,16 +25,16 @@
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
         ],
-        "url": "https://github.com"
+        "url": "www.yigitalplojistik.com.tr"
       },
       {
-        "title": "Kahraman Merdiven",
+        "title": "KAHRAMAN MERDİVEN",
         "description": "Dayımın işi.",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
         ],
-        "url": "https://github.com"
+        "url": "www.kahramanahsapmerdiven.com"
         
       }
     ],

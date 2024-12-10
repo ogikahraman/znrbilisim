@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/znrbilisim.com/precache-manifest.7b56b77be77e1d4a82af94a18d6290f1.js"
+  "/znrbilisim.com/precache-manifest.65fb055b9b6e008b77d0ded20de19cd0.js"
 );
 
 self.addEventListener('message', (event) => {
