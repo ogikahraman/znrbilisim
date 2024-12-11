@@ -13,7 +13,6 @@
     "projects": [
       {
         "title": "MTD İNŞAAT",
-        "description": "Tahir Abi's work.",
         "images": [
           "/images/references/mtdLogo.png"
         ],
@@ -21,7 +20,6 @@
       },
       {
         "title": "YİĞİTALP LOJİSTİK",
-        "description": "Özgür abi's work.",
         "images": [
           "/images/references/yigitalplogo.png"
         ],
@@ -29,7 +27,6 @@
       },
       {
         "title": "KAHRAMAN MERDİVEN",
-        "description": "Uncle's work.",
         "images": [
           "/images/references/kahramanahsaplogo.png"
         ],
