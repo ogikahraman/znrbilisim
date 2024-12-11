@@ -1,6 +1,6 @@
 {
   "name": "znrbilisim",
-  "homepage": "ogikahraman.github.io/znrbilisim",
+  "homepage": "https://ogikahraman.github.io/znrbilisim",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -50,6 +50,6 @@
     "@iconify/icons-logos": "^1.0.12",
     "@iconify/react": "^1.1.3",
     "gh-pages": "^3.2.3",
-    "sass": "^1.42.1"
+    "sass": "^1.82.0"
   }
 }
