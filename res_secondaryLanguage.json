@@ -15,7 +15,7 @@
         "title": "MTD İNŞAAT",
         "description": "Tahir Abi's work.",
         "images": [
-          "/images/mtdLogo.png"
+          "/images/references/mtdLogo.png"
         ],
         "url": "www.betonmehmet.com"
       },
@@ -23,7 +23,7 @@
         "title": "YİĞİTALP LOJİSTİK",
         "description": "Özgür abi's work.",
         "images": [
-          "/images/yigitalplogo.png"
+          "/images/references/yigitalplogo.png"
         ],
         "url": "www.yigitalplojistik.com.tr"
       },
@@ -31,7 +31,7 @@
         "title": "KAHRAMAN MERDİVEN",
         "description": "Uncle's work.",
         "images": [
-          "/images/kahramanahsaplogo.png"
+          "/images/references/kahramanahsaplogo.png"
         ],
         "url": "www.kahramanahsapmerdiven.com"
         
@@ -39,28 +39,28 @@
     ],
     "services": [
       {
-        "title": "deneme",
-        "description": "Tahir Abi's work.",
+        "title": "WEB DESING",
+        "description": "We offer professional web design solutions tailored to your corporate and e-commerce needs.",
         "images": [
-          "/images/mtdLogo.png"
+          "/images/services/webdesign.jpeg"
         ],
-        "url": "www.betonmehmet.com"
+        "url": ""
       },
       {
-        "title": "denme2",
-        "description": "Özgür abi's work.",
+        "title": "SEO",
+        "description": "We ensure your website appears on the first page of Google to attract potential customers.",
         "images": [
-          "/images/yigitalplogo.png"
+          "/images/services/seo.jpeg"
         ],
-        "url": "www.yigitalplojistik.com.tr"
+        "url": ""
       },
       {
-        "title": "deneme3",
-        "description": "Uncle's work.",
+        "title": "GRAPHIC DESIGN",
+        "description": "We offer professional graphic design services to strengthen your corporate identity.",
         "images": [
-          "/images/kahramanahsaplogo.png"
+          "/images/services/graphicdesign.jpeg"
         ],
-        "url": "www.kahramanahsapmerdiven.com"
+        "url": ""
         
       }
     ],

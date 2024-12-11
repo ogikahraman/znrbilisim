@@ -15,7 +15,7 @@
         "title": "MTD İNŞAAT",
         "description": "Tahir Abinin İşi.",
         "images": [
-          "/images/mtdLogo.png"
+          "/images/references/mtdLogo.png"
         ],
         "url": "https://www.betonmehmet.com"
       },
@@ -23,7 +23,7 @@
         "title": "YİĞİTALP LOJİSTİK",
         "description": "Özgür abinin işi.",
         "images": [
-          "/images/yigitalplogo.png"
+          "/images/references/yigitalplogo.png"
         ],
         "url": "https://www.yigitalplojistik.com.tr"
       },
@@ -31,7 +31,7 @@
         "title": "KAHRAMAN MERDİVEN",
         "description": "Dayımın işi.",
         "images": [
-          "/images/kahramanahsaplogo.png"
+          "/images/references/kahramanahsaplogo.png"
         ],
         "url": "https://www.kahramanahsapmerdiven.com"
         
@@ -40,28 +40,27 @@
     "services": [
       {
         "title": "WEB TASARIM",
-        "description": "Tahir Abinin İşi.",
+        "description": "Kurumsal ve E-Ticaret ihtiyaçlarınıza yönelik profesyonel web tasarım çözümleri sunuyoruz.",
         "images": [
-          "/images/znr.png"
+          "/images/services/webdesign.jpeg"
         ],
-        "url": "https://www.betonmehmet.com"
+        "url": ""
       },
       {
         "title": "SEO",
-        "description": "Özgür abinin işi.",
+        "description": "Potansiyel müşterilerinizi çekmeniz için web sitenizin Google'da ilk sayfada çıkmasını sağlıyoruz.",
         "images": [
-          "/images/znr.png"
+          "/images/services/seo.jpeg"
         ],
-        "url": "https://www.yigitalplojistik.com.tr"
+        "url": ""
       },
       {
         "title": "GRAFİK TASARIM",
-        "description": "Dayımın işi.",
+        "description": "Kurumsal kimliğinizi güçlendirmek için profesyonel grafik tasarım hizmetleri sunuyoruz.",
         "images": [
-          "/images/znr.png"
-        ],
-        "url": "https://www.kahramanahsapmerdiven.com"
-        
+          "/images/services/graphicdesign.jpeg"
+        ]     ,
+        "url": ""   
       }
     ],
     "experience": [
