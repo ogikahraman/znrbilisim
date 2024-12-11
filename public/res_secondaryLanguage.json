@@ -1,7 +1,8 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "I'am Zınar Işık!",
+      "description1": "At ZNR Bilişim, we embarked on our journey by questioning how technology could simplify the lives of individuals and businesses. Our goal has been to develop innovative and long-term solutions that are simple, effective, and user-friendly. By placing ourselves at the heart of digital transformation, we have leveraged our expertise in software, data analytics, and cloud technologies to serve our clients. In doing so, we position technology not just as a competitive advantage but as a key to a sustainable future.",
+      "description2": "Our leadership philosophy is rooted in focusing on the growth and happiness of our team members while driving innovation to make a difference. Looking ahead, we will continue to advance businesses with groundbreaking solutions in artificial intelligence, blockchain, and IoT. ZNR Bilişim is a story of determination and innovation, and we extend our gratitude to everyone who has been part of this journey with us.",
       "section_name": {
         "about": "About me",
         "projects": "References",
