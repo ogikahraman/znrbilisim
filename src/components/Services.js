@@ -31,12 +31,15 @@ class Services extends Component {
                   <img
                     src={process.env.PUBLIC_URL + services.images}
                     alt="servicesImages"
-                    height="230"
-                    style={{ marginBottom: 0, paddingBottom: 0, position: 'relative' }}
+                    height="auto"
+                    style={{ marginBottom: 0, paddingBottom: 0, position: 'relative', maxWidth: '100%', objectFit: 'cover' }}
                   />
                   <br />
                   <p className="services-title-settings mt-3">
                     {services.title}
+                  </p>
+                  <p className="services-desc-settings mt-3">
+                    {services.description}
                   </p>
                 </div>
               </div>

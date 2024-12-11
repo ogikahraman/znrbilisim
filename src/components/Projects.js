@@ -31,12 +31,15 @@ class Projects extends Component {
                   <img
                     src={process.env.PUBLIC_URL + projects.images}
                     alt="projectImages"
-                    height="230"
-                    style={{ marginBottom: 0, paddingBottom: 0, position: 'relative' }}
+                    height="250px"
+                    style={{ marginBottom: 0, paddingBottom: 0, position: 'relative', maxWidth: '100%', objectFit: 'cover' }}
                   />
                   <br />
                   <p className="project-title-settings mt-3">
                     {projects.title}
+                  </p>
+                  <p className="project-desc-settings mt-3">
+                    {projects.description}
                   </p>
                 </div>
               </div>

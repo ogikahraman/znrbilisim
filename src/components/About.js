@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import profilePic from "../images/znrPic.jpeg";
 
 class About extends Component {
   render() {
@@ -21,7 +20,7 @@ class About extends Component {
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="200px"
-                    src={profilePic}
+                    src={process.env.PUBLIC_URL + "/images/aboutme/znrPic.jpeg"}
                     alt="Avatar placeholder"
                   />
                 </span>
