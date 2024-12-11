@@ -2,14 +2,15 @@
     "basic_info": {
       "description_header": "Merhaba",
       "description1":"ZNR Bilişim olarak, teknolojinin bireylerin ve işletmelerin hayatını nasıl kolaylaştırabileceğini sorgulayarak yola çıktık. Hedefimiz, yenilikçi ve uzun vadeli çözümler geliştirerek, sade, etkili ve kullanıcı dostu çözümler sunmak oldu. Dijital dönüşümün merkezinde yer alarak yazılım, veri analitiği ve bulut teknolojileri gibi alanlarda uzmanlığımızı müşterilerimizin hizmetine sunduk. Bu sayede teknolojiyi bir rekabet avantajından öte, sürdürülebilir bir geleceğin anahtarı olarak konumlandırıyoruz.",
-      "description2": "Liderlik anlayışımız, ekip üyelerimizin gelişimine ve mutluluğuna odaklanarak, yenilikçi teknolojilerle fark yaratmaya dayanıyor. Gelecekte, yapay zeka, blockchain ve IoT gibi çığrı açan çözümlerle işletmeleri ileri taşımaya devam edeceğiz. ZNR Bilişim, azim ve yenilikçiliğin öyküsüdür; bu yolda bizimle olan herkese teşekkürler.",
+      "description2": "Liderlik anlayışımız, ekip üyelerimizin gelişimine ve mutluluğuna odaklanarak, yenilikçi teknolojilerle fark yaratmaya dayanıyor. Gelecekte, yapay zeka, blockchain ve IoT gibi çığır açan çözümlerle işletmeleri ileri taşımaya devam edeceğiz. ZNR Bilişim, azim ve yenilikçiliğin öyküsüdür; bu yolda bizimle olan herkese teşekkürler.",
       "section_name": {
         "about": "Hakkımda",
         "projects": "Referanslar",
         "services": "HİZMETLERİMİZ",
         "skills": "Skills",
         "experience": "Experience"
-      }
+      },
+      "titles": [ "BİLİŞİM TEKNOLOJİLER ", "WEB TASARIMI", "GOOGLE SEO HİZMETLERİ", "GRAFİK TASARIM" ]
     },
     "projects": [
       {
