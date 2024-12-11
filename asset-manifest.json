@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/ogikahraman.github.io/znrbilisim/static/css/main.f98950c9.chunk.css",
-    "main.js": "/ogikahraman.github.io/znrbilisim/static/js/main.ffac0b51.chunk.js",
-    "main.js.map": "/ogikahraman.github.io/znrbilisim/static/js/main.ffac0b51.chunk.js.map",
-    "runtime-main.js": "/ogikahraman.github.io/znrbilisim/static/js/runtime-main.7d50e997.js",
-    "runtime-main.js.map": "/ogikahraman.github.io/znrbilisim/static/js/runtime-main.7d50e997.js.map",
-    "static/css/2.95f4e4dc.chunk.css": "/ogikahraman.github.io/znrbilisim/static/css/2.95f4e4dc.chunk.css",
-    "static/js/2.38eed041.chunk.js": "/ogikahraman.github.io/znrbilisim/static/js/2.38eed041.chunk.js",
-    "static/js/2.38eed041.chunk.js.map": "/ogikahraman.github.io/znrbilisim/static/js/2.38eed041.chunk.js.map",
-    "static/js/3.63541234.chunk.js": "/ogikahraman.github.io/znrbilisim/static/js/3.63541234.chunk.js",
-    "static/js/3.63541234.chunk.js.map": "/ogikahraman.github.io/znrbilisim/static/js/3.63541234.chunk.js.map",
+    "main.css": "/ogikahraman.github.io/znrbilisim/static/css/main.f2f067f2.chunk.css",
+    "main.js": "/ogikahraman.github.io/znrbilisim/static/js/main.c3ac83ef.chunk.js",
+    "main.js.map": "/ogikahraman.github.io/znrbilisim/static/js/main.c3ac83ef.chunk.js.map",
+    "runtime-main.js": "/ogikahraman.github.io/znrbilisim/static/js/runtime-main.4510a4f3.js",
+    "runtime-main.js.map": "/ogikahraman.github.io/znrbilisim/static/js/runtime-main.4510a4f3.js.map",
+    "static/css/2.7f1403ef.chunk.css": "/ogikahraman.github.io/znrbilisim/static/css/2.7f1403ef.chunk.css",
+    "static/js/2.3e63da85.chunk.js": "/ogikahraman.github.io/znrbilisim/static/js/2.3e63da85.chunk.js",
+    "static/js/2.3e63da85.chunk.js.map": "/ogikahraman.github.io/znrbilisim/static/js/2.3e63da85.chunk.js.map",
+    "static/js/3.4dfded46.chunk.js": "/ogikahraman.github.io/znrbilisim/static/js/3.4dfded46.chunk.js",
+    "static/js/3.4dfded46.chunk.js.map": "/ogikahraman.github.io/znrbilisim/static/js/3.4dfded46.chunk.js.map",
     "index.html": "/ogikahraman.github.io/znrbilisim/index.html",
-    "precache-manifest.51b3f449286fafbb4853579fbc218182.js": "/ogikahraman.github.io/znrbilisim/precache-manifest.51b3f449286fafbb4853579fbc218182.js",
+    "precache-manifest.33acbced8bf19d86a84d9bfe115d7d5a.js": "/ogikahraman.github.io/znrbilisim/precache-manifest.33acbced8bf19d86a84d9bfe115d7d5a.js",
     "service-worker.js": "/ogikahraman.github.io/znrbilisim/service-worker.js",
-    "static/css/2.95f4e4dc.chunk.css.map": "/ogikahraman.github.io/znrbilisim/static/css/2.95f4e4dc.chunk.css.map",
-    "static/css/main.f98950c9.chunk.css.map": "/ogikahraman.github.io/znrbilisim/static/css/main.f98950c9.chunk.css.map",
-    "static/js/2.38eed041.chunk.js.LICENSE.txt": "/ogikahraman.github.io/znrbilisim/static/js/2.38eed041.chunk.js.LICENSE.txt",
+    "static/css/2.7f1403ef.chunk.css.map": "/ogikahraman.github.io/znrbilisim/static/css/2.7f1403ef.chunk.css.map",
+    "static/css/main.f2f067f2.chunk.css.map": "/ogikahraman.github.io/znrbilisim/static/css/main.f2f067f2.chunk.css.map",
+    "static/js/2.3e63da85.chunk.js.LICENSE.txt": "/ogikahraman.github.io/znrbilisim/static/js/2.3e63da85.chunk.js.LICENSE.txt",
     "static/media/znrPic.jpeg": "/ogikahraman.github.io/znrbilisim/static/media/znrPic.22c76a71.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7d50e997.js",
-    "static/css/2.95f4e4dc.chunk.css",
-    "static/js/2.38eed041.chunk.js",
-    "static/css/main.f98950c9.chunk.css",
-    "static/js/main.ffac0b51.chunk.js"
+    "static/js/runtime-main.4510a4f3.js",
+    "static/css/2.7f1403ef.chunk.css",
+    "static/js/2.3e63da85.chunk.js",
+    "static/css/main.f2f067f2.chunk.css",
+    "static/js/main.c3ac83ef.chunk.js"
   ]
 }
