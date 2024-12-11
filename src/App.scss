@@ -41,7 +41,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: visible;
-	background-color: #e9d5a1;
+	background-color: #ffffff;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -82,7 +82,7 @@ header {
 	position: sticky;
 	font-size: 25px;
 	z-index: 1;
-	background-color:#cdb069;
+	background-color:rgb(199, 199, 199);
 }
 
 header h1 {
@@ -114,7 +114,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #f6f4e9;
 	overflow: hidden;
 	z-index: 2;
 }
@@ -541,4 +541,10 @@ button:hover {
     margin-top: 20px;
     color: green;
     font-weight: bold;
+}
+
+.number {
+	cursor: "pointer";
+	color: #000000;
+	font-size: medium;
 }

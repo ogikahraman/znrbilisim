@@ -80,41 +80,52 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="col-md-12 mx-auto text-right language">
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$primaryLanguage,
-                window.$secondaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
-            <span
-              className="iconify language-icon mr-3"
-              data-icon="twemoji-flag-for-flag-turkey"
-              data-inline="false"
-              id={window.$primaryLanguageIconId}
-            ></span>
-          </div>
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$secondaryLanguage,
-                window.$primaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
-            <span
-              className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
-              data-inline="false"
-              id={window.$secondaryLanguageIconId}
-            ></span>
+        <div
+          className="col-md-12 mx-auto language"
+          style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}
+        >
+          <span className="number" style={{ cursor: "pointer" }} onClick={() => { window.location.href = "tel: +905368853513" }}
+          >+90 (536) 885 3513</span>
+          <div className="text-right" style={{ display: "flex", alignItems: "center" }}>
+            <div
+              onClick={() =>
+                this.applyPickedLanguage(
+                  window.$primaryLanguage,
+                  window.$secondaryLanguageIconId
+                )
+              }
+              style={{ marginRight: "10px", cursor: "pointer" }}
+            >
+              <span
+                className="iconify language-icon"
+                data-icon="twemoji-flag-for-flag-turkey"
+                data-inline="false"
+                id={window.$primaryLanguageIconId}
+              ></span>
+            </div>
+            <div
+              onClick={() =>
+                this.applyPickedLanguage(
+                  window.$secondaryLanguage,
+                  window.$primaryLanguageIconId
+                )
+              }
+              style={{ cursor: "pointer" }}
+            >
+              <span
+                className="iconify language-icon"
+                data-icon="twemoji-flag-for-flag-united-kingdom"
+                data-inline="false"
+                id={window.$secondaryLanguageIconId}
+              ></span>
+            </div>
           </div>
         </div>
-        <Header sharedData={this.state.sharedData.basic_info} />
+
+        <Header
+          resumeBasicInfo={this.state.resumeData.basic_info}
+          sharedData={this.state.sharedData.basic_info}
+        />
 
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}

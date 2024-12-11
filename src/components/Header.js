@@ -33,6 +33,7 @@ class Header extends Component {
       this.titles = this.props.sharedData.titles.map(x => [x.toUpperCase(), 1500]).flat();
     }
 
+
     const HeaderTitleTypeAnimation = React.memo(() => {
       return <Typical className="title-styles" steps={this.titles} loop={50} />
     }, (props, prevProp) => true);
@@ -56,9 +57,10 @@ class Header extends Component {
               <img
                 src={process.env.PUBLIC_URL + "/images/znr.png"}
                 alt="logo"
-                height="250"
+                height="170"
                 style={{ marginBottom: 0, paddingBottom: 0, position: 'relative' }}
-              />              <br />
+              />
+              <br />
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
               </h1>
@@ -68,7 +70,7 @@ class Header extends Component {
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
-                offColor="#baaa80"
+                offColor="#dbdbdb"
                 onColor="#353535"
                 className="react-switch mx-auto"
                 width={90}

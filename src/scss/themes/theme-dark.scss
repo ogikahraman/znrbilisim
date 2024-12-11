@@ -32,10 +32,15 @@ body[data-theme="dark"] {
       color: white;
    }
 
+   .title-styles {
+      color: #c6c6c6;
+
+   }
+
    header {
       background-color: #000000;
       h1 {
-         color: white;
+         color: #c6c6c6;
       }
    }
 
@@ -122,5 +127,9 @@ body[data-theme="dark"] {
 
    .close-icon {
       color: white;
+   }
+
+   .number {
+      color: #ffffff
    }
 }
