@@ -33,7 +33,13 @@
           "/images/references/kahramanahsaplogo.png"
         ],
         "url": "https://www.kahramanahsapmerdiven.com"
-        
+      },
+      {
+        "title": "HALLEY DERİ",
+        "images": [
+          "/images/references/halleyderi.png"
+        ],
+        "url": "https://www.halleyderi.com"
       }
     ], 
     "services": [
