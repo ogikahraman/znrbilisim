@@ -1,107 +1,169 @@
 {
-    "basic_info": {
-      "description_header": "Merhaba",
-      "description1":"ZNR Bilişim olarak, teknolojinin bireylerin ve işletmelerin hayatını nasıl kolaylaştırabileceğini sorgulayarak yola çıktık. Hedefimiz, yenilikçi ve uzun vadeli çözümler geliştirerek, sade, etkili ve kullanıcı dostu çözümler sunmak oldu. Dijital dönüşümün merkezinde yer alarak yazılım, veri analitiği ve bulut teknolojileri gibi alanlarda uzmanlığımızı müşterilerimizin hizmetine sunduk. Bu sayede teknolojiyi bir rekabet avantajından öte, sürdürülebilir bir geleceğin anahtarı olarak konumlandırıyoruz.",
-      "description2": "Liderlik anlayışımız, ekip üyelerimizin gelişimine ve mutluluğuna odaklanarak, yenilikçi teknolojilerle fark yaratmaya dayanıyor. Gelecekte, yapay zeka, blockchain ve IoT gibi çığır açan çözümlerle işletmeleri ileri taşımaya devam edeceğiz. ZNR Bilişim, azim ve yenilikçiliğin öyküsüdür; bu yolda bizimle olan herkese teşekkürler.",
-      "section_name": {
-        "about": "Hakkımda",
-        "projects": "Referanslar",
-        "services": "HİZMETLERİMİZ",
-        "skills": "Skills",
-        "experience": "Experience"
-      },
-      "titles": [ "BİLİŞİM TEKNOLOJİLERİ ", "WEB TASARIMI", "GOOGLE SEO HİZMETLERİ", "GRAFİK TASARIM" ]
+  "basic_info": {
+    "description_header": "Merhaba",
+    "description1": "ZNR Bilişim olarak, teknolojinin bireylerin ve işletmelerin hayatını nasıl kolaylaştırabileceğini sorgulayarak yola çıktık. Hedefimiz, yenilikçi ve uzun vadeli çözümler geliştirerek, sade, etkili ve kullanıcı dostu çözümler sunmak oldu. Dijital dönüşümün merkezinde yer alarak yazılım, veri analitiği ve bulut teknolojileri gibi alanlarda uzmanlığımızı müşterilerimizin hizmetine sunduk. Bu sayede teknolojiyi bir rekabet avantajından öte, sürdürülebilir bir geleceğin anahtarı olarak konumlandırıyoruz.",
+    "description2": "Liderlik anlayışımız, ekip üyelerimizin gelişimine ve mutluluğuna odaklanarak, yenilikçi teknolojilerle fark yaratmaya dayanıyor. Gelecekte, yapay zeka, blockchain ve IoT gibi çığır açan çözümlerle işletmeleri ileri taşımaya devam edeceğiz. ZNR Bilişim, azim ve yenilikçiliğin öyküsüdür; bu yolda bizimle olan herkese teşekkürler.",
+    "section_name": {
+      "about": "Hakkımda",
+      "projects": "Referanslar",
+      "services": "HİZMETLERİMİZ",
+      "skills": "Skills",
+      "experience": "Experience",
+      "contactus": "BİZE ULAŞIN"
     },
-    "projects": [
+    "social": [
       {
-        "title": "MTD İNŞAAT",
-        "images": [
-          "/images/references/mtdLogo.png"
-        ],
-        "url": "https://www.betonmehmet.com"
+        "name": "Telefon",
+        "url": "tel:+905368853513",
+        "class": "fa fa-phone"
       },
       {
-        "title": "YİĞİTALP LOJİSTİK",
-        "images": [
-          "/images/references/yigitalplogo.png"
-        ],
-        "url": "https://www.yigitalplojistik.com.tr"
+        "name": "WhatsApp",
+        "url": "https://wa.me/905368853513",
+        "class": "fab fa-whatsapp"
       },
       {
-        "title": "KAHRAMAN MERDİVEN",
-        "images": [
-          "/images/references/kahramanahsaplogo.png"
-        ],
-        "url": "https://www.kahramanahsapmerdiven.com"
+        "name": "E-mail",
+        "url": "mailto:zinarisik@hotmail.com",
+        "class": "fa fa-envelope"
       },
       {
-        "title": "HALLEY DERİ",
-        "images": [
-          "/images/references/halleyderi.png"
-        ],
-        "url": "https://www.halleyderi.com"
-      }
-    ], 
-    "services": [
-      {
-        "title": "WEB TASARIM",
-        "description": "Kurumsal ve E-Ticaret ihtiyaçlarınıza yönelik profesyonel web tasarım çözümleri sunuyoruz.",
-        "images": [
-          "/images/services/webdesign.jpeg"
-        ],
-        "url": ""
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/zınarışık/",
+        "class": "fab fa-linkedin"
       },
       {
-        "title": "SEO",
-        "description": "Potansiyel müşterilerinizi çekmeniz için web sitenizin Google'da ilk sayfada çıkmasını sağlıyoruz.",
-        "images": [
-          "/images/services/seo.jpeg"
-        ],
-        "url": ""
+        "name": "Instagram",
+        "url": "https://www.instagram.com/znrisk/",
+        "class": "fab fa-instagram"
       },
       {
-        "title": "GRAFİK TASARIM",
-        "description": "Kurumsal kimliğinizi güçlendirmek için profesyonel grafik tasarım hizmetleri sunuyoruz.",
-        "images": [
-          "/images/services/graphicdesign.jpeg"
-        ]     ,
-        "url": ""   
+        "name": "YouTube",
+        "url": "https://www.youtube.com/@znrisk",
+        "class": "fab fa-youtube"
       }
     ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
+    "titles": [
+      "BİLİŞİM TEKNOLOJİLERİ ",
+      "WEB TASARIMI",
+      "GOOGLE SEO HİZMETLERİ",
+      "GRAFİK TASARIM"
     ]
-  }
+  },
+  "projects": [
+    {
+      "title": "MTD İNŞAAT",
+      "images": [
+        "/images/references/mtdLogo.png"
+      ],
+      "url": "https://www.betonmehmet.com"
+    },
+    {
+      "title": "YİĞİTALP LOJİSTİK",
+      "images": [
+        "/images/references/yigitalplogo.png"
+      ],
+      "url": "https://www.yigitalplojistik.com.tr"
+    },
+    {
+      "title": "KAHRAMAN MERDİVEN",
+      "images": [
+        "/images/references/kahramanahsaplogo.png"
+      ],
+      "url": "https://www.kahramanahsapmerdiven.com"
+    },
+    {
+      "title": "HALLEY DERİ",
+      "images": [
+        "/images/references/halleyderi.png"
+      ],
+      "url": "https://www.halleyderi.com"
+    }
+  ],
+  "services": [
+    {
+      "title": "WEB TASARIM",
+      "description": "Kurumsal ve E-Ticaret ihtiyaçlarınıza yönelik profesyonel web tasarım çözümleri sunuyoruz.",
+      "images": [
+        "/images/services/webdesign.jpeg"
+      ],
+      "url": ""
+    },
+    {
+      "title": "SEO",
+      "description": "Potansiyel müşterilerinizi çekmeniz için web sitenizin Google'da ilk sayfada çıkmasını sağlıyoruz.",
+      "images": [
+        "/images/services/seo.jpeg"
+      ],
+      "url": ""
+    },
+    {
+      "title": "GRAFİK TASARIM",
+      "description": "Kurumsal kimliğinizi güçlendirmek için profesyonel grafik tasarım hizmetleri sunuyoruz.",
+      "images": [
+        "/images/services/graphicdesign.jpeg"
+      ],
+      "url": ""
+    },
+    {
+      "title": "PROFESYONEL FOTOĞRAFLAMA",
+      "description": "İşinizi en iyi şekilde yansıtmak için profesyonel fotoğraf çekimi hizmetleri sunuyoruz.",
+      "images": [
+        "/images/services/fotograflama.jpg"
+      ],
+      "url": ""
+    },
+    {
+      "title": "SOSYAL MEDYA YÖNETİMİ",
+      "description": "Markanızı dijital dünyada öne çıkarmak için etkili sosyal medya yönetimi hizmetleri sunuyoruz.",
+      "images": [
+        "/images/services/socialmedia.jpg"
+      ],
+      "url": ""
+    },
+    {
+      "title": "GOOGLE MAPS PİNLEMESİ",
+      "description": "Şirketinizi Google'da görünür kılalım ve marka kimliği oluşturalım. Google Maps pinlemesi yaparak şirketinizi görünür kılalım.",
+      "images": [
+        "/images/services/googlemaps.jpg"
+      ],
+      "url": ""
+    }
+  ],
+  "experience": [
+    {
+      "company": "DefOpenSource",
+      "title": "Front-End Developer",
+      "years": "10.2019 - present",
+      "mainTech": [
+        "Angular 8/9/10"
+      ],
+      "technologies": [
+        "REST API",
+        "RxJS",
+        "JavaScript",
+        "Bootstrap",
+        "MDBootstrap",
+        "EF Core",
+        ".NET Core",
+        "SignalR",
+        "Angular Material"
+      ]
+    },
+    {
+      "company": "Serros Solutions",
+      "title": "Intern",
+      "years": "01.2018 - 09.2019",
+      "mainTech": [
+        "Angular 7/8"
+      ],
+      "technologies": [
+        "RxJS",
+        "Django",
+        "PHP",
+        "JavaScript",
+        "DHTMLX Gantt"
+      ]
+    }
+  ]
+}

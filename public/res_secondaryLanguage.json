@@ -1,106 +1,167 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description1": "At ZNR Bilişim, we embarked on our journey by questioning how technology could simplify the lives of individuals and businesses. Our goal has been to develop innovative and long-term solutions that are simple, effective, and user-friendly. By placing ourselves at the heart of digital transformation, we have leveraged our expertise in software, data analytics, and cloud technologies to serve our clients. In doing so, we position technology not just as a competitive advantage but as a key to a sustainable future.",
-      "description2": "Our leadership philosophy is rooted in focusing on the growth and happiness of our team members while driving innovation to make a difference. Looking ahead, we will continue to advance businesses with groundbreaking solutions in artificial intelligence, blockchain, and IoT. ZNR Bilişim is a story of determination and innovation, and we extend our gratitude to everyone who has been part of this journey with us.",
-      "section_name": {
-        "about": "About me",
-        "projects": "References",
-        "services": "Services",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      },
-      "titles": [ "INFORMATION TECHNOLOGIES", "WEB DESIGN", "GOOGLE SEO SERVICES", "GRAPHIC DESIGN" ]
+  "basic_info": {
+    "description_header": "Hi",
+    "description1": "At ZNR Bilişim, we embarked on our journey by questioning how technology could simplify the lives of individuals and businesses. Our goal has been to develop innovative and long-term solutions that are simple, effective, and user-friendly. By placing ourselves at the heart of digital transformation, we have leveraged our expertise in software, data analytics, and cloud technologies to serve our clients. In doing so, we position technology not just as a competitive advantage but as a key to a sustainable future.",
+    "description2": "Our leadership philosophy is rooted in focusing on the growth and happiness of our team members while driving innovation to make a difference. Looking ahead, we will continue to advance businesses with groundbreaking solutions in artificial intelligence, blockchain, and IoT. ZNR Bilişim is a story of determination and innovation, and we extend our gratitude to everyone who has been part of this journey with us.",
+    "section_name": {
+      "about": "About me",
+      "projects": "References",
+      "services": "Services",
+      "skills": "Umiejętności",
+      "experience": "Doświadczenie",
+      "contactus": "CONTACT US"
     },
-    "projects": [
+    "social": [
       {
-        "title": "MTD İNŞAAT",
-        "images": [
-          "/images/references/mtdLogo.png"
-        ],
-        "url": "www.betonmehmet.com"
+        "name": "Phone",
+        "url": "tel:+905368853513",
+        "class": "fa fa-phone"
       },
       {
-        "title": "YİĞİTALP LOJİSTİK",
-        "images": [
-          "/images/references/yigitalplogo.png"
-        ],
-        "url": "www.yigitalplojistik.com.tr"
+        "name": "WhatsApp",
+        "url": "https://wa.me/905368853513",
+        "class": "fab fa-whatsapp"
       },
       {
-        "title": "KAHRAMAN MERDİVEN",
-        "images": [
-          "/images/references/kahramanahsaplogo.png"
-        ],
-        "url": "www.kahramanahsapmerdiven.com"
+        "name": "E-mail",
+        "url": "mailto:zinarisik@hotmail.com",
+        "class": "fa fa-envelope"
       },
       {
-        "title": "HALLEY DERİ",
-        "images": [
-          "/images/references/halleyderi.png"
-        ],
-        "url": "https://www.halleyderi.com"
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/zınarışık/",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/znrisk/",
+        "class": "fab fa-instagram"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/@znrisk",
+        "class": "fab fa-youtube"
       }
     ],
-    "services": [
-      {
-        "title": "WEB DESING",
-        "description": "We offer professional web design solutions tailored to your corporate and e-commerce needs.",
-        "images": [
-          "/images/services/webdesign.jpeg"
-        ],
-        "url": ""
-      },
-      {
-        "title": "SEO",
-        "description": "We ensure your website appears on the first page of Google to attract potential customers.",
-        "images": [
-          "/images/services/seo.jpeg"
-        ],
-        "url": ""
-      },
-      {
-        "title": "GRAPHIC DESIGN",
-        "description": "We offer professional graphic design services to strengthen your corporate identity.",
-        "images": [
-          "/images/services/graphicdesign.jpeg"
-        ],
-        "url": ""
-        
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
+    "titles": [
+      "INFORMATION TECHNOLOGIES",
+      "WEB DESIGN",
+      "GOOGLE SEO SERVICES",
+      "GRAPHIC DESIGN"
     ]
-  }
+  },
+  "projects": [
+    {
+      "title": "MTD İNŞAAT",
+      "images": [
+        "/images/references/mtdLogo.png"
+      ],
+      "url": "www.betonmehmet.com"
+    },
+    {
+      "title": "YİĞİTALP LOJİSTİK",
+      "images": [
+        "/images/references/yigitalplogo.png"
+      ],
+      "url": "www.yigitalplojistik.com.tr"
+    },
+    {
+      "title": "KAHRAMAN MERDİVEN",
+      "images": [
+        "/images/references/kahramanahsaplogo.png"
+      ],
+      "url": "www.kahramanahsapmerdiven.com"
+    },
+    {
+      "title": "HALLEY DERİ",
+      "images": [
+        "/images/references/halleyderi.png"
+      ],
+      "url": "https://www.halleyderi.com"
+    }
+  ],
+  "services": [
+    {
+      "title": "WEB DESING",
+      "description": "We offer professional web design solutions tailored to your corporate and e-commerce needs.",
+      "images": [
+        "/images/services/webdesign.jpeg"
+      ],
+      "url": ""
+    },
+    {
+      "title": "SEO",
+      "description": "We ensure your website appears on the first page of Google to attract potential customers.",
+      "images": [
+        "/images/services/seo.jpeg"
+      ],
+      "url": ""
+    },
+    {
+      "title": "GRAPHIC DESIGN",
+      "description": "We offer professional graphic design services to strengthen your corporate identity.",
+      "images": [
+        "/images/services/graphicdesign.jpeg"
+      ],
+      "url": ""
+    },
+    {
+      "title": "PROFESSIONAL PHOTOGRAPHY",
+      "description": "We offer professional photography services to represent your business in the best possible way.",
+      "images": [
+        "/images/services/fotograflama.jpg"
+      ],
+      "url": ""
+    },
+    {
+      "title": "SOCIAL MEDIA MANAGEMENT",
+      "description": "We offer effective social media management services to help your brand stand out in the digital world.",
+      "images": [
+        "/images/services/socialmedia.jpg"
+      ],
+      "url": ""
+    },
+    {
+      "title": "GOOGLE MAPS PINNING",
+      "description": "Let's make your business visible on Google and build your brand identity. We can enhance your visibility by pinning your business on Google Maps.",
+      "images": [
+        "/images/services/googlemaps.jpg"
+      ],
+      "url": ""
+    }
+  ],
+  "experience": [
+    {
+      "company": "DefOpenSource",
+      "title": "Front-End Developer",
+      "years": "10.2019 - obecnie",
+      "mainTech": [
+        "Angular 8/9/10"
+      ],
+      "technologies": [
+        "REST API",
+        "RxJS",
+        "JavaScript",
+        "Bootstrap",
+        "MDBootstrap",
+        "EF Core",
+        "Angular Material"
+      ]
+    },
+    {
+      "company": "Serros Solutions",
+      "title": "Stażystka",
+      "years": "01.2018 - 09.2019",
+      "mainTech": [
+        "Angular 7/8"
+      ],
+      "technologies": [
+        "REST API",
+        "RxJS",
+        "Swagger",
+        "JavaScript",
+        "DHTMLX Gantt"
+      ]
+    }
+  ]
+}

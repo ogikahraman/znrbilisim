@@ -12,7 +12,7 @@ class About extends Component {
     return (
       <section id="about">
         <div className="col-md-12">
-          <h1 style={{ color: "black" }}>
+          <h1 style={{ color: "black", fontSize: "31px", marginBottom: "31px" }}>
             <span>{sectionName}</span>
           </h1>
           <div className="row center mx-auto mb-5">
