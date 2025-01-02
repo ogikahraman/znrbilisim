@@ -6,11 +6,9 @@ import particlesConfig from "../config/particlesConfig.js";
 import particlesConfigLight from "../config/particlesConfigLight.js";
 import "react-toggle/style.css";
 import { Icon } from "@iconify/react";
-import { InView } from "react-intersection-observer"; // InView import
+import { InView } from "react-intersection-observer";
 
 class Header extends Component {
-  titles = [];
-
   constructor() {
     super();
     this.state = { checked: true };
@@ -31,11 +29,17 @@ class Header extends Component {
   }
 
   render() {
+    let titles = [];
+    if (this.props.resumeBasicInfo) {
+      titles = this.props.resumeBasicInfo.titles.map(x => x.toUpperCase());
+      if (!Array.isArray(titles) || titles.some(item => typeof item !== 'string')) {
+        titles = [];
+      }
+
+    }
+
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
-    }
-    if (this.props.resumeBasicInfo) {
-      this.titles = this.props.resumeBasicInfo.titles.map(x => [x.toUpperCase(), 1500]).flat();
     }
 
     return (
@@ -78,14 +82,18 @@ class Header extends Component {
                     {name}
                   </h1>
                   <div className="title-container">
-                    <TypingEffect
-                      className="title-styles"
-                      text={this.titles}
-                      speed={51}
-                      eraseDelay={1000}
-                      typingDelay={0}
-                      eraseSpeed={30}
-                    />
+                    {titles.length > 0 ? (
+                      <TypingEffect
+                        className="title-styles"
+                        text={titles}
+                        speed={51}
+                        eraseDelay={1000}
+                        typingDelay={0}
+                        eraseSpeed={30}
+                      />
+                    ) : (
+                      <p>No Titles Available</p>  // Eğer titles dizisi boşsa burada alternatif bir metin göster
+                    )}
                   </div>
                   <Toggle
                     checked={this.state.checked}
@@ -106,7 +114,6 @@ class Header extends Component {
                         >
                           <Icon icon="noto-v1:sun-with-face" />
                         </span>
-
                       ),
                       unchecked: (
                         <span
