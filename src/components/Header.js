@@ -81,7 +81,7 @@ class Header extends Component {
                     <TypingEffect
                       className="title-styles"
                       text={this.titles}
-                      speed={50}
+                      speed={51}
                       eraseDelay={1000}
                       typingDelay={0}
                       eraseSpeed={30}
