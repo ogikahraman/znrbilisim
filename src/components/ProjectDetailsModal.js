@@ -4,7 +4,6 @@ class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
       const technologies = this.props.data.technologies;
-      const images = this.props.data.images;
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
@@ -24,11 +23,6 @@ class ProjectDetailsModal extends Component {
             </li>
           );
         });
-        if (this.props.data.images) {
-          var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
-          });
-        }
       }
     }
     return (

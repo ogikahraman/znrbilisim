@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { InView } from "react-intersection-observer";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 
 class Projects extends Component {
@@ -18,7 +19,7 @@ class Projects extends Component {
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
-      var projects = this.props.resumeProjects.map(function (projects) {
+      var projects = this.props.resumeProjects.map((projects, index) => {
         return (
           <div
             className="col-sm-12 col-md-6 col-lg-3"
@@ -26,23 +27,45 @@ class Projects extends Component {
             style={{ cursor: "pointer" }}
           >
             <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
-                  <img
-                    src={process.env.PUBLIC_URL + projects.images}
-                    alt="projectImages"
-                    height="250px"
-                    style={{ marginBottom: 0, paddingBottom: 0, position: 'relative', maxWidth: '100%', objectFit: 'cover' }}
-                  />
-                  <br />
-                  <p className="project-title-settings mt-3">
-                    {projects.title}
-                  </p>
-                  <p className="project-desc-settings mt-3">
-                    {projects.description}
-                  </p>
+              <InView
+                as="div"
+                triggerOnce
+                onChange={(inView) => {
+                  if (inView) {
+                    const element = document.getElementById(`project-${index}`);
+                    element.classList.add("fadeSlideUp");
+                  }
+                }}
+              >
+                <div
+                  className="foto"
+                  onClick={() => detailsModalShow(projects)}
+                  id={`project-${index}`}
+                  style={{ opacity: 0 }}
+                >
+                  <div>
+                    <img
+                      src={process.env.PUBLIC_URL + projects.images}
+                      alt="projectImages"
+                      height="250px"
+                      style={{
+                        marginBottom: 0,
+                        paddingBottom: 0,
+                        position: "relative",
+                        maxWidth: "100%",
+                        objectFit: "cover",
+                      }}
+                    />
+                    <br />
+                    <p className="project-title-settings mt-3">
+                      {projects.title}
+                    </p>
+                    <p className="project-desc-settings mt-3">
+                      {projects.description}
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </InView>
             </span>
           </div>
         );
@@ -52,7 +75,10 @@ class Projects extends Component {
     return (
       <section id="portfolio">
         <div className="col-md-12">
-          <h1 className="section-title" style={{ color: "black", fontSize: "31px" }}>
+          <h1
+            className="section-title"
+            style={{ color: "black", fontSize: "31px" }}
+          >
             <span>{sectionName}</span>
           </h1>
           <div className="col-md-12 mx-auto">

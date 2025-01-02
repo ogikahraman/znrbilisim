@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { InView } from "react-intersection-observer";
 
 class About extends Component {
   render() {
@@ -12,63 +13,90 @@ class About extends Component {
     return (
       <section id="about">
         <div className="col-md-12">
+
           <h1 style={{ color: "black", fontSize: "31px", marginBottom: "31px" }}>
             <span>{sectionName}</span>
           </h1>
-          <div className="row center mx-auto mb-5">
-            <div className="col-md-4 mb-5 center">
-              <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
-                  <img
-                    height="200px"
-                    src={process.env.PUBLIC_URL + "/images/aboutme/znrPic.jpeg"}
-                    alt="Avatar placeholder"
-                  />
-                </span>
-              </div>
-            </div>
+          <div id="about-section">
 
-            <div className="col-md-8 center">
-              <div className="col-md-10">
-                <div className="card">
-                  <div className="card-header">
-                    <span
-                      className="iconify"
-                      data-icon="emojione:red-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:yellow-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:green-circle"
-                      data-inline="false"
-                    ></span>
-                  </div>
-                  <div
-                    className="card-body font-trebuchet text-justify ml-3 mr-3"
-                    style={{
-                      height: "auto",
-                      fontSize: "132%",
-                      lineHeight: "200%",
+            <InView
+              as="div"
+              triggerOnce
+              onChange={(inView) => {
+                if (inView) {
+                  const element = document.getElementById("about-section");
+                  element.classList.add("fadeInUp");
+                }
+              }}
+            >
+              <div className="row center mx-auto mb-5">
+                <div className="col-md-4 mb-5 center">
+                  <InView
+                    as="div"
+                    triggerOnce
+                    onChange={(inView) => {
+                      if (inView) {
+                        const element = document.getElementById("polaroid-photo");
+                        element.classList.add("fadeInUp");
+                      }
                     }}
                   >
-                    <br />
-                    <span className="wave">{hello} :) </span>
-                    <br />
-                    <br />
-                    {about1}
-                    <br />
-                    {about2}
+                    <div className="polaroid" id="polaroid-photo">
+                      <span style={{ cursor: "auto" }}>
+                        <img
+                          height="200px"
+                          src={process.env.PUBLIC_URL + "/images/aboutme/znrPic.jpeg"}
+                          alt="Avatar placeholder"
+                        />
+                      </span>
+                    </div>
+                  </InView>
+                </div>
+
+                <div className="col-md-8 center">
+                  <div className="col-md-10">
+                    <div className="card">
+                      <div className="card-header">
+                        <span
+                          className="iconify"
+                          data-icon="emojione:red-circle"
+                          data-inline="false"
+                        ></span>{" "}
+                        &nbsp;{" "}
+                        <span
+                          className="iconify"
+                          data-icon="twemoji:yellow-circle"
+                          data-inline="false"
+                        ></span>{" "}
+                        &nbsp;{" "}
+                        <span
+                          className="iconify"
+                          data-icon="twemoji:green-circle"
+                          data-inline="false"
+                        ></span>
+                      </div>
+                      <div
+                        className="card-body font-trebuchet text-justify ml-3 mr-3"
+                        style={{
+                          height: "auto",
+                          fontSize: "132%",
+                          lineHeight: "200%",
+                        }}
+                      >
+                        <br />
+                        <span className="wave">{hello} :) </span>
+                        <br />
+                        <br />
+                        {about1}
+                        <br />
+                        {about2}
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </InView>
+
           </div>
         </div>
       </section>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { InView } from "react-intersection-observer";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 
 class Services extends Component {
@@ -16,9 +17,10 @@ class Services extends Component {
     };
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
+
     if (this.props.resumeServices && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.services;
-      var services = this.props.resumeServices.map(function (services) {
+      var services = this.props.resumeServices.map((services, index) => {
         return (
           <div
             className="col-sm-12 col-md-6 col-lg-4"
@@ -26,23 +28,46 @@ class Services extends Component {
             style={{ cursor: "pointer" }}
           >
             <span className="services-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(services)}>
-                <div>
-                  <img
-                    src={process.env.PUBLIC_URL + services.images}
-                    alt="servicesImages"
-                    height="auto"
-                    style={{ marginBottom: 0, paddingBottom: 0, position: 'relative', maxWidth: '100%', objectFit: 'cover' }}
-                  />
-                  <br />
-                  <p className="services-title-settings mt-3">
-                    {services.title}
-                  </p>
-                  <p className="services-desc-settings mt-3">
-                    {services.description}
-                  </p>
+              <InView
+                as="div"
+                triggerOnce
+                onChange={(inView) => {
+                  if (inView) {
+                    const element = document.getElementById(`service-${index}`);
+                    element.classList.add("bounce");
+                    element.style.opacity = 1;
+                  }
+                }}
+              >
+                <div
+                  className="foto"
+                  onClick={() => detailsModalShow(services)}
+                  id={`service-${index}`}
+                  style={{ opacity: 0 }}
+                >
+                  <div>
+                    <img
+                      src={process.env.PUBLIC_URL + services.images}
+                      alt="servicesImages"
+                      height="auto"
+                      style={{
+                        marginBottom: 0,
+                        paddingBottom: 0,
+                        position: "relative",
+                        maxWidth: "100%",
+                        objectFit: "cover",
+                      }}
+                    />
+                    <br />
+                    <p className="services-title-settings mt-3">
+                      {services.title}
+                    </p>
+                    <p className="services-desc-settings mt-3">
+                      {services.description}
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </InView>
             </span>
           </div>
         );

@@ -1,6 +1,6 @@
 const particlesConfig = {
     fullScreen: {
-        enable: false, // Fullscreen devre dışı
+        enable: false,
     },
     particles: {
         number: {
@@ -11,10 +11,10 @@ const particlesConfig = {
             },
         },
         color: {
-            value: "#ffffff", // Partikül rengi siyah
+            value: "#ffffff",
         },
         shape: {
-            type: "circle", // Daire şeklindeki partiküller
+            type: "circle",
         },
         opacity: {
             value: 0.5,
@@ -27,7 +27,7 @@ const particlesConfig = {
         line_linked: {
             enable: true,
             distance: 150,
-            color: "#00ccff", // Çizgi rengi siyah
+            color: "#00ccff",
             opacity: 0.4,
             width: 1,
         },
@@ -36,19 +36,19 @@ const particlesConfig = {
             speed: 2,
             direction: "none",
             out_mode: "out",
-            bounce: false, // Sekme efekti devre dışı
+            bounce: false,
         },
     },
     interactivity: {
-        detect_on: "window", // Etkileşim sadece canvas ile sınırlı
+        detect_on: "window",
         events: {
             onhover: {
                 enable: true,
-                mode: "grab", // Mouse üzerindeyken çizgiler yakalanır
+                mode: "grab",
             },
             onclick: {
                 enable: true,
-                mode: "push", // Mouse tıklandığında yeni partiküller eklenir
+                mode: "push",
             },
             resize: true,
         },
