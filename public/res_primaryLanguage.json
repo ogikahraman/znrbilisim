@@ -78,22 +78,36 @@
         "/images/references/halleyderi.png"
       ],
       "url": "https://www.halleyderi.com"
+    },
+    {
+      "title": "NEDİM OPEL",
+      "images": [
+        "/images/references/nedimOpel.png"
+      ],
+      "url": "https://www.nedimopel.com"
+    },
+    {
+      "title": "OZOTECH",
+      "images": [
+        "/images/references/ozotech.png"
+      ],
+      "url": ""
     }
   ],
   "services": [
+    {
+      "title": "SERVİS OTOMASYON SİSTEMİ",
+      "description": "İşletmenizde müşterilerinizin servis geçmişi, takibi ve işlerinizin otomasyonu için akıllı",
+      "images": [
+        "/images/services/otomasyon.jpg"
+      ],
+      "url": ""
+    },
     {
       "title": "WEB TASARIM",
       "description": "Kurumsal ve E-Ticaret ihtiyaçlarınıza yönelik profesyonel web tasarım çözümleri sunuyoruz.",
       "images": [
         "/images/services/webdesign.jpeg"
-      ],
-      "url": ""
-    },
-    {
-      "title": "SEO",
-      "description": "Potansiyel müşterilerinizi çekmeniz için web sitenizin Google'da ilk sayfada çıkmasını sağlıyoruz.",
-      "images": [
-        "/images/services/seo.jpeg"
       ],
       "url": ""
     },
@@ -106,18 +120,18 @@
       "url": ""
     },
     {
-      "title": "PROFESYONEL FOTOĞRAFLAMA",
-      "description": "İşinizi en iyi şekilde yansıtmak için profesyonel fotoğraf çekimi hizmetleri sunuyoruz.",
+      "title": "SEO",
+      "description": "Potansiyel müşterilerinizi çekmeniz için web sitenizin Google'da ilk sayfada çıkmasını sağlıyoruz.",
       "images": [
-        "/images/services/fotograflama.jpg"
+        "/images/services/seo.jpeg"
       ],
       "url": ""
     },
     {
-      "title": "SOSYAL MEDYA YÖNETİMİ",
-      "description": "Markanızı dijital dünyada öne çıkarmak için etkili sosyal medya yönetimi hizmetleri sunuyoruz.",
+      "title": "PROFESYONEL FOTOĞRAFLAMA",
+      "description": "İşinizi en iyi şekilde yansıtmak için profesyonel fotoğraf çekimi hizmetleri sunuyoruz.",
       "images": [
-        "/images/services/socialmedia.jpg"
+        "/images/services/fotograflama.jpg"
       ],
       "url": ""
     },

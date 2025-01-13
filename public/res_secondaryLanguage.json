@@ -78,22 +78,36 @@
         "/images/references/halleyderi.png"
       ],
       "url": "https://www.halleyderi.com"
+    },
+    {
+      "title": "NEDİM OPEL",
+      "images": [
+        "/images/references/nedimOpel.png"
+      ],
+      "url": "https://www.nedimopel.com"
+    },
+    {
+      "title": "OZOTECH",
+      "images": [
+        "/images/references/ozotech.png"
+      ],
+      "url": ""
     }
   ],
   "services": [
+    {
+      "title": "SERVICE AUTOMATION SYSTEM",
+      "description": "Smart solutions for your customers' service history, tracking and automation of your work in your business.",
+      "images": [
+        "/images/services/otomasyon.jpg"
+      ],
+      "url": ""
+    },
     {
       "title": "WEB DESING",
       "description": "We offer professional web design solutions tailored to your corporate and e-commerce needs.",
       "images": [
         "/images/services/webdesign.jpeg"
-      ],
-      "url": ""
-    },
-    {
-      "title": "SEO",
-      "description": "We ensure your website appears on the first page of Google to attract potential customers.",
-      "images": [
-        "/images/services/seo.jpeg"
       ],
       "url": ""
     },
@@ -106,18 +120,18 @@
       "url": ""
     },
     {
-      "title": "PROFESSIONAL PHOTOGRAPHY",
-      "description": "We offer professional photography services to represent your business in the best possible way.",
+      "title": "SEO",
+      "description": "We ensure your website appears on the first page of Google to attract potential customers.",
       "images": [
-        "/images/services/fotograflama.jpg"
+        "/images/services/seo.jpeg"
       ],
       "url": ""
     },
     {
-      "title": "SOCIAL MEDIA MANAGEMENT",
-      "description": "We offer effective social media management services to help your brand stand out in the digital world.",
+      "title": "PROFESSIONAL PHOTOGRAPHY",
+      "description": "We offer professional photography services to represent your business in the best possible way.",
       "images": [
-        "/images/services/socialmedia.jpg"
+        "/images/services/fotograflama.jpg"
       ],
       "url": ""
     },

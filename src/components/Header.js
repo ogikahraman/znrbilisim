@@ -87,9 +87,9 @@ class Header extends Component {
                         className="title-styles"
                         text={titles}
                         speed={51}
-                        eraseDelay={1000}
+                        eraseDelay={2000}
                         typingDelay={0}
-                        eraseSpeed={30}
+                        eraseSpeed={40}
                       />
                     ) : (
                       <p>No Titles Available</p>  // Eğer titles dizisi boşsa burada alternatif bir metin göster

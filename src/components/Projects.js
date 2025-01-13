@@ -22,9 +22,15 @@ class Projects extends Component {
       var projects = this.props.resumeProjects.map((projects, index) => {
         return (
           <div
-            className="col-sm-12 col-md-6 col-lg-3"
+            className="col-sm-12 col-md-6 col-lg-4"
             key={projects.title}
-            style={{ cursor: "pointer" }}
+            style={{
+              cursor: "pointer",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              height: "500px",
+            }}
           >
             <span className="portfolio-item d-block">
               <InView
@@ -47,7 +53,7 @@ class Projects extends Component {
                     <img
                       src={process.env.PUBLIC_URL + projects.images}
                       alt="projectImages"
-                      height="250px"
+                      height="350px"
                       style={{
                         marginBottom: 0,
                         paddingBottom: 0,
