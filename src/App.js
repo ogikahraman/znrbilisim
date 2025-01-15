@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Services from "./components/Services";
+import Products from "./components/Products";
 
 class App extends Component {
   constructor(props) {
@@ -69,7 +70,6 @@ class App extends Component {
       cache: false,
       success: function (data) {
         this.setState({ sharedData: data });
-        document.title = `${this.state.sharedData.basic_info.name}`;
       }.bind(this),
       error: function (xhr, status, err) {
         alert(err);
@@ -126,13 +126,16 @@ class App extends Component {
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedData={this.state.sharedData.basic_info}
         />
-
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
         <Services
           resumeServices={this.state.resumeData.services}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <Products
+          resumeProducts={this.state.resumeData.products}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Projects

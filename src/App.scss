@@ -114,7 +114,7 @@ header h1 {
 }
 
 #about {
-	background: #f6f4e9;
+	background: linear-gradient(to bottom, #ffffff, #ece7d3);
 	overflow: hidden;
 	z-index: 2;
 }
@@ -200,6 +200,23 @@ header h1 {
 }
 
 .services-desc-settings {
+	margin-top: 5%;
+	font: 12px/16px sans-serif;
+	color: rgb(102, 102, 102);
+	text-align: center;
+	white-space: break-word;
+	display: block;
+}
+.products-title-settings {
+	margin-top: 5%;
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: black;
+	text-align: center;
+}
+
+.products-desc-settings {
 	margin-top: 5%;
 	font: 12px/16px sans-serif;
 	color: rgb(102, 102, 102);
@@ -379,7 +396,9 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #f2dda7;
+	background: linear-gradient(to bottom, #f2dda7, #f8db93);
+
 	padding-bottom: 5%;
 }
 
@@ -406,7 +425,7 @@ header h1 {
 }
 
 #services {
-	background: #ece7d3;
+	background: linear-gradient(to bottom, #ece7d3, #ede4c0);
 	padding-bottom: 5%;
 }
 
@@ -438,6 +457,44 @@ header h1 {
 	}
 
 	.services .services-item {
+		margin-bottom: 30px;
+	}
+}
+
+#products {
+	background: linear-gradient(to bottom, #ede4c0, #f2dda7);
+
+	padding-bottom: 5%;
+}
+
+.products-item {
+	max-width: 100%;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.products .products-item .products-item-caption {
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+	opacity: 0;
+	background-color: rgba(51, 51, 51, 0.9);
+}
+
+.products .products-item .products-item-caption:hover {
+	opacity: 1;
+}
+
+.products .products-item .products-item-caption .products-item-caption-content {
+	font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+	.products .closeButtonResponsive {
+		display: block;
+	}
+
+	.products .products-item {
 		margin-bottom: 30px;
 	}
 }
@@ -590,6 +647,33 @@ button:hover {
 }
 
 .bounce {
+	animation: slideBounceAnimation 1s ease-out forwards;
+}
+
+@keyframes slideBounceAnimation {
+	0% {
+		transform: translateX(-100%) scale(1);
+		opacity: 0;
+	}
+
+	30% {
+		transform: translateX(10%) scale(1.1);
+		opacity: 1;
+	}
+
+	50% {
+		transform: translateX(0) scale(1);
+	}
+
+	70% {
+		transform: translateX(5%) scale(1.05);
+	}
+
+	100% {
+		transform: translateX(0) scale(1);
+	}
+}
+.bounce2 {
 	animation: slideBounceAnimation 1s ease-out forwards;
 }
 

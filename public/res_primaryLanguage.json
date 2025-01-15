@@ -4,9 +4,10 @@
     "description1": "ZNR Bilişim olarak, teknolojinin bireylerin ve işletmelerin hayatını nasıl kolaylaştırabileceğini sorgulayarak yola çıktık. Hedefimiz, yenilikçi ve uzun vadeli çözümler geliştirerek, sade, etkili ve kullanıcı dostu çözümler sunmak oldu. Dijital dönüşümün merkezinde yer alarak yazılım, veri analitiği ve bulut teknolojileri gibi alanlarda uzmanlığımızı müşterilerimizin hizmetine sunduk. Bu sayede teknolojiyi bir rekabet avantajından öte, sürdürülebilir bir geleceğin anahtarı olarak konumlandırıyoruz.",
     "description2": "Liderlik anlayışımız, ekip üyelerimizin gelişimine ve mutluluğuna odaklanarak, yenilikçi teknolojilerle fark yaratmaya dayanıyor. Gelecekte, yapay zeka, blockchain ve IoT gibi çığır açan çözümlerle işletmeleri ileri taşımaya devam edeceğiz. ZNR Bilişim, azim ve yenilikçiliğin öyküsüdür; bu yolda bizimle olan herkese teşekkürler.",
     "section_name": {
-      "about": "Hakkımda",
+      "about": "Hakkımızda",
       "projects": "Referanslar",
       "services": "HİZMETLERİMİZ",
+      "products": "ÜRÜNLERİMİZ",
       "skills": "Skills",
       "experience": "Experience",
       "contactus": "BİZE ULAŞIN"
@@ -140,6 +141,32 @@
       "description": "Şirketinizi Google'da görünür kılalım ve marka kimliği oluşturalım. Google Maps pinlemesi yaparak şirketinizi görünür kılalım.",
       "images": [
         "/images/services/googlemaps.jpg"
+      ],
+      "url": ""
+    }
+  ],
+  "products": [
+    {
+      "title": "KURUMSAL KİMLİK OLUŞTURMA",
+      "description": "Kurumsal kimlik, bir markanın dış dünyaya nasıl göründüğünü belirleyen logo, renk paleti ve tasarım unsurlarını içerir. Profesyonel bir kurumsal kimlik, markanın güvenilirliğini artırır ve hedef kitlenin zihninde güçlü bir izlenim bırakır.",
+      "images": [
+        "/images/products/kurumsalKimlik.jpg"
+      ],
+      "url": ""
+    },
+    {
+      "title": "OTOMASYON SİSTEMLERİ",
+      "description": "Otomasyon sistemleri, iş süreçlerini hızlandıran ve hata oranını azaltan teknolojik çözümlerdir. İşletmelerin verimliliğini artırır ve manuel iş yükünü en aza indirir.",
+      "images": [
+        "/images/products/otomasyon.jpeg"
+      ],
+      "url": ""
+    },
+    {
+      "title": "SOSYAL MEDYA YÖNETİMİ",
+      "description": "Sosyal medya yönetimi, markaların dijital platformlarda etkili bir şekilde varlık göstermesini sağlar. Hedef kitle ile etkileşim kurarak görünürlüğü artırır ve marka bilinirliğini güçlendirir.",
+      "images": [
+        "/images/products/sosyalMedya.jpeg"
       ],
       "url": ""
     }

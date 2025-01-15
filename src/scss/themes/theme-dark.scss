@@ -45,7 +45,7 @@ body[data-theme="dark"] {
    }
 
    #about {
-      background: #9a9a9a;
+      background: linear-gradient(to bottom, #9a9a9a, #7f7f7f);
 
       h1 span {
          color: white;
@@ -60,7 +60,9 @@ body[data-theme="dark"] {
    }
 
    #portfolio {
-      background: #5b5b5b;
+      background: #424242;
+      background: linear-gradient(to bottom, #424242, #1F1F1F);
+
       .section-title {
          color: white !important;
       }
@@ -75,7 +77,8 @@ body[data-theme="dark"] {
       }
    }
    #services {
-      background-color: #7f7f7f;
+      background: linear-gradient(to bottom, #7f7f7f, #5a5a5a);
+
       .section-title {
          color: white !important;
       }
@@ -86,6 +89,22 @@ body[data-theme="dark"] {
          color: white;
       }
       .services-desc-settings {
+         color: rgb(219, 219, 219);
+      }
+   }
+   #products {
+      background: linear-gradient(to bottom, #5a5a5a, #424242);
+
+      .section-title {
+         color: white !important;
+      }
+      .foto div {
+         background: #6d6d6d;
+      }
+      .products-title-settings {
+         color: white;
+      }
+      .products-desc-settings {
          color: rgb(219, 219, 219);
       }
    }
