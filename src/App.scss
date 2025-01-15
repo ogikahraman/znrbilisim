@@ -673,33 +673,37 @@ button:hover {
 		transform: translateX(0) scale(1);
 	}
 }
-.bounce2 {
-	animation: slideBounceAnimation 1s ease-out forwards;
-}
-
-@keyframes slideBounceAnimation {
+.swingIn {
+	animation: swingInAnimation 1.5s ease-out forwards;
+  }
+  
+  @keyframes swingInAnimation {
 	0% {
-		transform: translateX(-100%) scale(1);
-		opacity: 0;
+	  transform: translateX(100%) rotate(0deg) scale(0.8);
+	  opacity: 0;
 	}
-
-	30% {
-		transform: translateX(10%) scale(1.1);
-		opacity: 1;
+  
+	25% {
+	  transform: translateX(50%) rotate(15deg) scale(1.1);
+	  opacity: 0.5;
 	}
-
+  
 	50% {
-		transform: translateX(0) scale(1);
+	  transform: translateX(20%) rotate(-10deg) scale(1.05);
+	  opacity: 0.8;
 	}
-
-	70% {
-		transform: translateX(5%) scale(1.05);
+  
+	75% {
+	  transform: translateX(5%) rotate(5deg) scale(1.02);
+	  opacity: 0.9;
 	}
-
+  
 	100% {
-		transform: translateX(0) scale(1);
+	  transform: translateX(0) rotate(0deg) scale(1);
+	  opacity: 1;
 	}
-}
+  }
+  
 
 .polaroid {
 	position: relative;

@@ -34,7 +34,7 @@ class Products extends Component {
                 onChange={(inView) => {
                   if (inView) {
                     const element = document.getElementById(`product-${index}`);
-                    element.classList.add("bounce2");
+                    element.classList.add("swingIn");
                     element.style.opacity = 1;
                   }
                 }}
