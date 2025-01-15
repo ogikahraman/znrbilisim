@@ -7,6 +7,7 @@
       "about": "About me",
       "projects": "References",
       "services": "Services",
+      "products": "Products",
       "skills": "Umiejętności",
       "experience": "Doświadczenie",
       "contactus": "CONTACT US"
@@ -140,6 +141,32 @@
       "description": "Let's make your business visible on Google and build your brand identity. We can enhance your visibility by pinning your business on Google Maps.",
       "images": [
         "/images/services/googlemaps.jpg"
+      ],
+      "url": ""
+    }
+  ],
+  "products": [
+    {
+      "title": "CORPORATE IDENTITY CREATION",
+      "description": "Corporate identity includes the logo, color palette, and design elements that define how a brand appears to the outside world. A professional corporate identity enhances the brand's credibility and leaves a strong impression on the target audience.",
+      "images": [
+        "/images/products/kurumsalKimlik.jpg"
+      ],
+      "url": ""
+    },
+    {
+      "title": "AUTOMATION SYSTEMS",
+      "description": "Automation systems are technological solutions that accelerate business processes and reduce error rates. They enhance operational efficiency and minimize manual workloads.",
+      "images": [
+        "/images/products/otomasyon.jpeg"
+      ],
+      "url": ""
+    },
+    {
+      "title": "SOCIAL MEDIA MANAGEMENT",
+      "description": "Social media management enables brands to establish an effective presence on digital platforms. It increases visibility and strengthens brand awareness by engaging with the target audience.",
+      "images": [
+        "/images/products/sosyalMedya.jpeg"
       ],
       "url": ""
     }
