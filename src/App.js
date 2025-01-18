@@ -84,7 +84,7 @@ class App extends Component {
           className="col-md-12 mx-auto language"
           style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}
         >
-          <span className="number" style={{ cursor: "pointer" }} onClick={() => { window.location.href = "tel: +905368853513" }}
+          <span className="number" style={{ cursor: "pointer", marginLeft: "10px" }} onClick={() => { window.location.href = "tel: +905368853513" }}
           >+90 (536) 885 3513</span>
           <div className="text-right" style={{ display: "flex", alignItems: "center" }}>
             <div
@@ -110,7 +110,7 @@ class App extends Component {
                   window.$primaryLanguageIconId
                 )
               }
-              style={{ cursor: "pointer" }}
+              style={{ marginRight: "10px", cursor: "pointer" }}
             >
               <span
                 className="iconify language-icon"
