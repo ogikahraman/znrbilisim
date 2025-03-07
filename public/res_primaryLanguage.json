@@ -93,6 +93,20 @@
         "/images/references/ozotech.png"
       ],
       "url": ""
+    },
+    {
+      "title": "POINT-LAB",
+      "images": [
+        "/images/references/pointlab.png"
+      ],
+      "url": "https://www.point-lab.net"
+    },
+    {
+      "title": "ÖZKASAL",
+      "images": [
+        "/images/references/ozkasal.png"
+      ],
+      "url": "https://www.ozkasalhafriyat.com"
     }
   ],
   "services": [

@@ -22,7 +22,7 @@ class Projects extends Component {
       var projects = this.props.resumeProjects.map((projects, index) => {
         return (
           <div
-            className="col-sm-12 col-md-6 col-lg-4"
+            className="col-sm-12 col-md-6 col-lg-3"
             key={projects.title}
             style={{
               cursor: "pointer",
@@ -59,7 +59,7 @@ class Projects extends Component {
                         paddingBottom: 0,
                         position: "relative",
                         maxWidth: "100%",
-                        objectFit: "cover",
+                        objectFit: "contain",
                       }}
                     />
                     <br />
