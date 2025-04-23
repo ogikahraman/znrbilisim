@@ -88,13 +88,6 @@
       "url": "https://www.nedimopel.com"
     },
     {
-      "title": "OZOTECH",
-      "images": [
-        "/images/references/ozotech.png"
-      ],
-      "url": ""
-    },
-    {
       "title": "POINT-LAB",
       "images": [
         "/images/references/pointlab.png"
@@ -107,6 +100,13 @@
         "/images/references/ozkasal.png"
       ],
       "url": "https://www.ozkasalhafriyat.com"
+    },
+    {
+      "title": "BY İMİS SHOES",
+      "images": [
+        "/images/references/byimis.png"
+      ],
+      "url": "https://www.byimis.com"
     }
   ],
   "services": [
