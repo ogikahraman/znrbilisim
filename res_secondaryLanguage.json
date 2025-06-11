@@ -107,6 +107,34 @@
         "/images/references/byimis.png"
       ],
       "url": "https://www.byimis.com"
+    },
+    {
+      "title": "ACAR MODERN MOBİLYA",
+      "images": [
+        "/images/references/acar.png"
+      ],
+      "url": "https://www.acarmodernmobilya.com"
+    },
+    {
+      "title": "DEMİRBAĞ DEKORASYON",
+      "images": [
+        "/images/references/demirbag.png"
+      ],
+      "url": "https://www.demirbagdekorasyon.com"
+    },
+    {
+      "title": "DEMİRBAĞ MEZAR",
+      "images": [
+        "/images/references/demirbag.png"
+      ],
+      "url": "https://www.mezarizmir.com"
+    },
+    {
+      "title": "SDR POLAT ELEKTRİK",
+      "images": [
+        "/images/references/sdr.png"
+      ],
+      "url": "https://www.sdrpolatelektrik.com"
     }
   ],
   "services": [
